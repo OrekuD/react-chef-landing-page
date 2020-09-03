@@ -1,7 +1,13 @@
-## React Landing Page
+## Chef Restaurant Landing Page
 
-![Screenshots](https://github.com/OrekuD/react-clay-shop/blob/master/src/assets/screenshots/1.png?raw=true)
+A landing page for a chef restaurant built with React.
 
-![Screenshot 2](https://github.com/OrekuD/react-clay-shop/blob/master/src/assets/screenshots/2.png?raw=true)
+[Link](https://ui8.net/venus-studio/products/chef-restaurant-landing-page) to the UI template used.
 
-Here's a [link](https://clay-shop.netlify.app/) to view the live app
+### Some screenshots
+
+![Screenshots](https://github.com/OrekuD/react-chef-landing-page/blob/master/src/assets/screenshots/1.png?raw=true)
+
+![Screenshot 2](https://github.com/OrekuD/react-chef-landing-page/blob/master/src/assets/screenshots/2.png?raw=true)
+
+Here's a [link](https://chef-landing-page.netlify.app/) to view the live app
