@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "PlayfairBold";
+  src: url(./assets/fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: "PlayfairRegular";
+  src: url(./assets/fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "PlayfairMedium";
+  src: url(./assets/fonts/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: "PlayfairMedium";
+  src: url(./assets/fonts/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+html {
+  font-size: 16px;
+}
+
+.App {
+  padding: 0 100px;
+}
