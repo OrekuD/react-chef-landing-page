@@ -4,20 +4,55 @@
   display: flex;
   height: calc(100vh - 200px);
   overflow: hidden;
+  align-self: center;
 
   .content {
     width: 50%;
     padding-left: 50px;
     padding-top: 70px;
 
+    @media (max-width: 1024px) {
+      padding: 70px 0 0 55px;
+    }
+
+    @media (max-width: 920px) {
+      padding: 0;
+      padding-top: 60px;
+    }
+
+    @media (max-width: 620px) {
+      width: 100%;
+    }
+
     .title {
       font-family: "PlayfairBold";
       font-size: 50px;
       color: $black;
+
+      @media (max-width: 1024px) {
+        font-size: 44px;
+      }
+
+      @media (max-width: 920px) {
+        font-size: 38px;
+      }
+
+      @media (max-width: 720px) {
+        font-size: 30px;
+      }
+
+      @media (max-width: 620px) {
+        font-size: 40px;
+      }
     }
 
     .description-label {
       margin: 20px 0;
+
+      @media (max-width: 620px) {
+        width: 90%;
+        font-size: 20px;
+      }
     }
 
     .row {
@@ -50,9 +85,17 @@
   }
 
   .chef {
-    width: 40%;
+    width: 50%;
     height: fit-content;
     object-fit: contain;
     margin-top: -50px;
+
+    @media (max-width: 720px) {
+      margin-top: -70px;
+    }
+
+    @media (max-width: 620px) {
+      display: none;
+    }
   }
 }

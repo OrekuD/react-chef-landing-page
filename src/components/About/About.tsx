@@ -24,13 +24,9 @@ const items = [
 const About = () => (
   <div className="about">
     {items.map(({ title, label, image, description }, index) => (
-      <div
-        className="item"
-        key={index}
-        style={{ flexDirection: index === 1 ? "row-reverse" : "row" }}
-      >
+      <div className="item" key={index}>
         <img src={image} alt="title" />
-        <div className="content" style={{ marginRight: index === 1 ? 10 : 0 }}>
+        <div className="content">
           <p className="small-label">{title}</p>
           <p className="large-label">{label}</p>
           <p className="description-label">{description}</p>

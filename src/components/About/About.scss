@@ -1,21 +1,54 @@
 .about {
   .item {
     width: 650px;
-    height: 400px;
+    min-height: 400px;
     margin: 40px auto;
     align-self: center;
     display: flex;
+
+    &:last-of-type {
+      flex-direction: row-reverse;
+    }
+
+    @media (max-width: 700px) {
+      width: 600px;
+    }
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
 
     img {
       width: 60%;
       height: 100%;
       object-fit: contain;
+
+      @media (max-width: 700px) {
+        width: 40%;
+        margin-top: 40px;
+      }
+
+      @media (max-width: 450px) {
+        display: none;
+      }
     }
 
     .content {
       padding-top: 30px;
+
       p {
         margin: 20px 0;
+      }
+
+      @media (max-width: 450px) {
+        .description-label {
+          width: 80%;
+          font-size: 18px;
+        }
+
+        .large-label {
+          font-size: 30px;
+        }
       }
     }
   }
