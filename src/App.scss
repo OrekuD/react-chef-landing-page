@@ -41,3 +41,12 @@ html {
 .App {
   padding: 0 100px;
 }
+
+button {
+  border: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}

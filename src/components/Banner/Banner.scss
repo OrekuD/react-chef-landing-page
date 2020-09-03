@@ -1,0 +1,97 @@
+@import "../constants/colors.scss";
+
+.banner {
+  display: flex;
+  padding: 30px 0;
+  overflow: hidden;
+
+  .content {
+    width: 50%;
+    padding-left: 50px;
+
+    .title {
+      font-family: "PlayfairBold";
+      font-size: 50px;
+      color: $black;
+    }
+
+    .description {
+      font-family: "PoppinsRegular";
+      font-size: 18px;
+      color: $grey;
+      margin: 20px 0;
+      //   width: ;
+    }
+
+    .row {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+
+      .place-order {
+        padding: 12px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        background-color: $orange;
+        color: white;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+          0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+          0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+          0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
+        font-family: "PlayfairBold";
+        font-size: 16px;
+        transition: 0.6s ease all;
+
+        &:hover {
+          background-color: #d04303;
+
+          .icon {
+            background-color: $orange;
+          }
+        }
+
+        .icon {
+          margin: 0 0px 0 8px;
+          width: 35px;
+          height: 35px;
+          display: grid;
+          place-items: center;
+          background-color: $lightorange;
+          border-radius: 5px;
+          transition: 0.6s ease all;
+        }
+      }
+
+      .play-button {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #ffaf8b;
+        margin-left: 40px;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+          0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+          0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+          0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
+
+        div {
+          width: 44px;
+          height: 44px;
+          border-radius: 50%;
+          background-color: $orange;
+          margin: auto;
+          display: grid;
+          place-items: center;
+        }
+      }
+    }
+  }
+
+  .chef {
+    width: 40%;
+    height: fit-content;
+    object-fit: contain;
+    // background-color: red;
+    margin-top: -50px;
+  }
+}
