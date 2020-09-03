@@ -1,0 +1,55 @@
+@import "../../constants/colors.scss";
+
+footer {
+  display: flex;
+  position: relative;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+
+  .link {
+    font-size: 14px;
+    color: $black;
+    font-family: "PoppinsRegular";
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 16px;
+    font-family: "PlayfairBold";
+    margin-bottom: 30px;
+  }
+
+  .section {
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+    .row {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+
+      p {
+        margin: 0;
+      }
+      svg {
+        margin-right: 10px;
+        margin-bottom: 2px;
+      }
+    }
+  }
+
+  .scroll-up-button {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $orange;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+      0 100px 80px rgba(0, 0, 0, 0.07);
+  }
+}

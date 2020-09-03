@@ -8,7 +8,6 @@ const Banner = () => (
     <div className="content">
       <p className="title">Order Your</p>
       <p className="title">Favourite Meal</p>
-
       <p className="description-label">
         We promise you'll enjoy every sweet moment to find your favourite. Eat
         what you love and save your time.

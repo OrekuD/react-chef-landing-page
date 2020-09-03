@@ -206,3 +206,48 @@ export const Star = ({ size, color }: Props) => (
     />
   </svg>
 );
+
+export const ChevronUp = ({ size, color }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size / 2}
+    viewBox="0 0 35.525 17.775"
+  >
+    <path
+      d="M37.981,25.767a2.537,2.537,0,0,1-1.623-.583L22.762,13.82,9.14,24.778a2.543,2.543,0,1,1-3.2-3.957L21.163,8.57a2.537,2.537,0,0,1,3.221,0L39.6,21.252a2.559,2.559,0,0,1-1.623,4.515Z"
+      transform="translate(-4.996 -7.993)"
+      fill={color}
+    />
+  </svg>
+);
+
+export const Map = ({ size, color }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size * 0.89}
+    viewBox="0 0 18.002 16"
+  >
+    <path
+      d="M20.41,5.89l-4-1.8h-.82L12,5.7,8.41,4.09H8.36L8.24,4h-.6l-4,1.8A1,1,0,0,0,3,6.8V19a1,1,0,0,0,1.41.91L8,18.3l3.59,1.61h.05a.85.85,0,0,0,.72,0h.05L16,18.3l3.59,1.61A1,1,0,0,0,21,19V6.8a1,1,0,0,0-.59-.91ZM9,6.55l2,.89v10l-2-.89Zm10,10.9-2-.89v-10l2,.89Z"
+      transform="translate(-2.998 -4)"
+      fill={color}
+    />
+  </svg>
+);
+
+export const Mail = ({ size, color }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size * 0.8}
+    viewBox="0 0 20 16"
+  >
+    <path
+      d="M19,4H5A3,3,0,0,0,2,7V17a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7a3,3,0,0,0-3-3Zm0,2-6.5,4.47a1,1,0,0,1-1,0L5,6Z"
+      transform="translate(-2 -4)"
+      fill={color}
+    />
+  </svg>
+);

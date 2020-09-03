@@ -7,6 +7,8 @@ import {
   About,
   Popular,
   Mobile,
+  Testimonial,
+  Footer,
 } from "./components";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <About />
       <Popular />
       <Mobile />
+      <Testimonial />
+      <Footer />
     </div>
   );
 }
