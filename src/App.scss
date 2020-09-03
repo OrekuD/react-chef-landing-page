@@ -97,12 +97,12 @@ button {
   }
 
   .icon {
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     display: grid;
     place-items: center;
     background-color: $lightorange;
-    border-radius: 5px;
+    border-radius: 8px;
     transition: 0.6s ease all;
   }
 }
