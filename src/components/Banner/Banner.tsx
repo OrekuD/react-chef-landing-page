@@ -9,13 +9,13 @@ const Banner = () => (
       <p className="title">Order Your</p>
       <p className="title">Favourite Meal</p>
 
-      <p className="description">
+      <p className="description-label">
         We promise you'll enjoy every sweet moment to find your favourite. Eat
         what you love and save your time.
       </p>
 
       <div className="row">
-        <button className="place-order">
+        <button className="main-btn">
           <p>Place an order</p>
           <div className="icon">
             <ChevronRight size={8} color="#fff" />

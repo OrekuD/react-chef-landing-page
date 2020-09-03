@@ -34,7 +34,7 @@ const Categories = () => (
         <div className="item" key={index}>
           <img src={image} alt={label} />
           <p className="label">{label}</p>
-          <p className="description">{description}</p>
+          <p className="description-label">{description}</p>
         </div>
       ))}
     </div>
