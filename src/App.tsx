@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.scss";
-import { Header, Banner } from "./components";
+import { Header, Banner, Categories } from "./components";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Banner />
+      <Categories />
     </div>
   );
 }
