@@ -85,13 +85,14 @@
   }
 
   .chef {
-    width: 50%;
+    width: 40%;
     height: fit-content;
     object-fit: contain;
     margin-top: -50px;
 
     @media (max-width: 720px) {
       margin-top: -70px;
+      width: 50%;
     }
 
     @media (max-width: 620px) {
