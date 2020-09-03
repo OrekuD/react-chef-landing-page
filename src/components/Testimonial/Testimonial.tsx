@@ -12,15 +12,9 @@ const Testimonial = () => (
     <p className="large-label">Our Happy Customers</p>
     <div className="customers">
       {customers.map((image, index) => (
-        <img
-          src={image}
-          alt="Customer"
-          style={{
-            width: index === 1 ? 140 : 100,
-            height: index === 1 ? 140 : 100,
-          }}
-          key={index}
-        />
+        <div className="image-container">
+          <img src={image} alt="Customer" key={index} />
+        </div>
       ))}
     </div>
     <p className="name">David B. Hairston</p>

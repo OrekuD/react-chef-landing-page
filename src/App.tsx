@@ -18,10 +18,10 @@ function App() {
       <Banner />
       <Categories />
       <About />
-      {/* <Popular />
+      <Popular />
       <Mobile />
       <Testimonial />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

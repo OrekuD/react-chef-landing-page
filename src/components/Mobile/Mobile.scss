@@ -7,6 +7,10 @@
     position: relative;
     width: 400px;
 
+    @media (max-width: 620px) {
+      display: none;
+    }
+
     .background {
       width: 100%;
       height: auto;
@@ -27,6 +31,9 @@
   .content {
     padding-left: 40px;
     padding-top: 30px;
+    @media (max-width: 620px) {
+      padding-left: 20px;
+    }
 
     p {
       &:first-of-type {

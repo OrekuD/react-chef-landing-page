@@ -6,6 +6,10 @@ footer {
   margin-bottom: 100px;
   flex-wrap: wrap;
 
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+
   .link {
     font-size: 14px;
     color: $black;
@@ -23,6 +27,14 @@ footer {
   .section {
     margin-left: 100px;
     margin-bottom: 30px;
+
+    @media (max-width: 600px) {
+      margin-left: 40px;
+    }
+
+    @media (max-width: 500px) {
+      margin-left: 20px;
+    }
 
     .row {
       display: flex;
