@@ -40,14 +40,16 @@ const Popular = () => (
           ...Array(5 - rating).fill(grey),
         ];
         return (
-          <div className="item" key={index}>
-            <img src={image} alt={name} />
-            <p className="name">{name}</p>
-            <p className="price">${price}</p>
-            <div className="rating">
-              {stars.map((starColor, index) => (
-                <Star size={12} color={starColor} key={index} />
-              ))}
+          <div className="item-container" key={index}>
+            <div className="item">
+              <img src={image} alt={name} />
+              <p className="name">{name}</p>
+              <p className="price">${price}</p>
+              <div className="rating">
+                {stars.map((starColor, index) => (
+                  <Star size={12} color={starColor} key={index} />
+                ))}
+              </div>
             </div>
           </div>
         );
