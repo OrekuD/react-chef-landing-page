@@ -8,7 +8,7 @@ import playstore from "../../assets/images/play-store.png";
 const Mobile = () => (
   <div className="mobile">
     <div className="image-container">
-      <img src={background} alt="Background-image" className="background" />
+      <img src={background} alt="Background-pattern" className="background" />
       <img src={phone} alt="Mobile app" className="phone" />
     </div>
     <div className="content">
